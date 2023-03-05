@@ -1,0 +1,35 @@
+.numberSign {
+	height: 46px;
+	width: 26px;
+}
+
+.number-0 {
+	background: url('../../assets/minesweeper-sprites.png') 26px 0;
+}
+.number-1 {
+		background: url('../../assets/minesweeper-sprites.png');
+}
+.number-2 {
+		background: url('../../assets/minesweeper-sprites.png') 250px 0;
+}
+.number-3 {
+		background: url('../../assets/minesweeper-sprites.png') 222px 0;
+}
+.number-4 {
+		background: url('../../assets/minesweeper-sprites.png') 194px 0;
+}
+.number-5 {
+		background: url('../../assets/minesweeper-sprites.png') 166px 0;
+}
+.number-6 {
+		background: url('../../assets/minesweeper-sprites.png') 138px 0;
+}
+.number-7 {
+	background: url('../../assets/minesweeper-sprites.png') 110px 0;
+}
+.number-8 {
+	background: url('../../assets/minesweeper-sprites.png') 82px 0;
+}
+.number-9 {
+	background: url('../../assets/minesweeper-sprites.png') 54px 0;
+}

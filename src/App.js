@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useState } from 'react';
+
+// import { Field } from './models/Field';
+import { FieldComponent, Counter, Emoticon, Timer } from './components';
+
+import './app.css';
 
 function App() {
+  // const [field, setField] = useState(new Field());
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="upperBlock">
+        <Counter count={40} />
+        <Emoticon mood={'play'} />
+        <Timer time={15} />
+      </div>
+      <FieldComponent />
     </div>
   );
 }

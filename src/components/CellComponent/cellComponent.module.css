@@ -1,0 +1,50 @@
+/* 'open' | 'closed' | 'marked' | 'question' | 'questionOpen' | 'mine' | 'mineBlown' | 'mineFalse' | 'number-x' */
+
+.closed {
+	background: url('../../assets/minesweeper-sprites.png') -1px -102px;
+}
+.open {
+	background: url('../../assets/minesweeper-sprites.png') -33px -106px;
+}
+.marked {
+	background: url('../../assets/minesweeper-sprites.png') -68px -102px;
+}
+.question {
+	background: url('../../assets/minesweeper-sprites.png') -102px -102px;
+}
+.questionOpen {
+	background: url('../../assets/minesweeper-sprites.png') -136px -103px;
+}
+.mine {
+	background: url('../../assets/minesweeper-sprites.png') -170px -103px;
+}
+.mineBlown {
+	background: url('../../assets/minesweeper-sprites.png') -204px -103px;
+}
+.mineFalse {
+	background: url('../../assets/minesweeper-sprites.png') -238px -104px;
+}
+.number-1 {
+	background: url('../../assets/minesweeper-sprites.png') -1px -136px;
+}
+.number-2 {
+	background: url('../../assets/minesweeper-sprites.png') -34px -136px;
+}
+.number-3 {
+	background: url('../../assets/minesweeper-sprites.png') -68px -136px;
+}
+.number-4 {
+	background: url('../../assets/minesweeper-sprites.png') -102px -136px;
+}
+.number-5 {
+	background: url('../../assets/minesweeper-sprites.png') -136px -136px;
+}
+.number-6 {
+	background: url('../../assets/minesweeper-sprites.png') -170px -136px;
+}
+.number-7 {
+	background: url('../../assets/minesweeper-sprites.png') -204px -136px;
+}
+.number-8 {
+	background: url('../../assets/minesweeper-sprites.png') -238px -136px;
+}

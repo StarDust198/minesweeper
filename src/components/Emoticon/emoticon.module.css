@@ -1,0 +1,24 @@
+.emoticon {
+	height: 52px;
+	width: 52px;
+}
+
+.play {
+	background: url('../../assets/minesweeper-sprites.png') -1px -49px;
+}
+
+.push {
+	background: url('../../assets/minesweeper-sprites.png') 222px -49px;
+}
+
+.hold {
+	background: url('../../assets/minesweeper-sprites.png') 168px -49px;
+}
+
+.win {
+	background: url('../../assets/minesweeper-sprites.png') 114px -49px;
+}
+
+.lose {
+	background: url('../../assets/minesweeper-sprites.png') 60px -49px;
+}
