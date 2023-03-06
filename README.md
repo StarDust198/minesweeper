@@ -19,7 +19,7 @@ use 'npm start' to run the app.
 
 ### Links
 
-- Live Site URL: [mineSweeper](https://to-be-added.vercel.app/)
+- Live Site URL: [mineSweeper](https://minesweeper-gold.vercel.app/)
 
 ## Author
 
