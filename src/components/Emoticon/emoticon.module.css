@@ -12,13 +12,13 @@
 }
 
 .hold {
-	background: url('../../assets/minesweeper-sprites.png') 168px -49px;
+	background: url('../../assets/minesweeper-sprites.png') 169px -49px;
 }
 
 .win {
-	background: url('../../assets/minesweeper-sprites.png') 114px -49px;
+	background: url('../../assets/minesweeper-sprites.png') 115px -49px;
 }
 
 .lose {
-	background: url('../../assets/minesweeper-sprites.png') 60px -49px;
+	background: url('../../assets/minesweeper-sprites.png') 61px -49px;
 }

@@ -3,7 +3,7 @@ import { NumberSign } from '../NumberSign/NumberSign';
 import styles from './counter.module.css';
 
 export const Counter = ({ count }) => {
-  const nums = count.toString().slice(-3).padStart(3, '0');
+  const nums = count.toString().padStart(3, '0');
 
   return (
     <div className={styles.counter}>

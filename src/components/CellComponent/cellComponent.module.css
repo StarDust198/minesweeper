@@ -1,10 +1,9 @@
 /* 'open' | 'closed' | 'marked' | 'question' | 'questionOpen' | 'mine' | 'mineBlown' | 'mineFalse' | 'number-x' */
-
 .closed {
-	background: url('../../assets/minesweeper-sprites.png') -1px -102px;
+	background: url('../../assets/minesweeper-sprites.png') 0 -101px;
 }
 .open {
-	background: url('../../assets/minesweeper-sprites.png') -33px -106px;
+	background: url('../../assets/minesweeper-sprites.png') -35px -103px;
 }
 .marked {
 	background: url('../../assets/minesweeper-sprites.png') -68px -102px;
@@ -28,7 +27,7 @@
 	background: url('../../assets/minesweeper-sprites.png') -1px -136px;
 }
 .number-2 {
-	background: url('../../assets/minesweeper-sprites.png') -34px -136px;
+	background: url('../../assets/minesweeper-sprites.png') -35px -136px;
 }
 .number-3 {
 	background: url('../../assets/minesweeper-sprites.png') -68px -136px;

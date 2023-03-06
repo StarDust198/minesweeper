@@ -1,21 +1,33 @@
-// import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-// import { Field } from './models/Field';
+import { Field } from './models/Field';
 import { FieldComponent, Counter, Emoticon, Timer } from './components';
 
 import './app.css';
 
 function App() {
-  // const [field, setField] = useState(new Field());
+  const totalMines = 40;
+
+  const [field, setField] = useState(new Field(totalMines));
+  const [mood, setMood] = useState('play');
+
+  useEffect(() => {
+    if (field.gameStatus === 2) setMood('lose');
+    if (field.gameStatus === 3) setMood('win');
+  }, [field]);
+
+  function restart() {
+    setField(new Field(totalMines));
+  }
 
   return (
     <div className="App">
       <div className="upperBlock">
-        <Counter count={40} />
-        <Emoticon mood={'play'} />
-        <Timer time={15} />
+        <Counter count={field.remainingMines} />
+        <Emoticon mood={mood} onClick={restart} />
+        <Timer status={field.gameStatus} />
       </div>
-      <FieldComponent />
+      <FieldComponent field={field} setField={setField} setMood={setMood} />
     </div>
   );
 }
