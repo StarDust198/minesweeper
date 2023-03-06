@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Field } from './models/Field';
 import { FieldComponent, Counter, Emoticon, Timer } from './components';
 
-import './app.css';
+import './App.css';
 
 function App() {
   const totalMines = 40;
